@@ -4,5 +4,5 @@
 
 int main() {
     // Part 1
-    std::cout << "Test" << std::endl;
+    std::cout << "Hello World" << std::endl;
 }

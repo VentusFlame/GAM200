@@ -8,7 +8,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;dpml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)lib\glfw-3.3.7.bin.WIN32\lib-vc2022\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
